@@ -1,0 +1,13 @@
+spring:
+  security:
+    oauth2:
+      client:
+        provider:
+          testprovider:
+            token-uri: https://accounts.google.com/o/oauth2/v2/auth
+        registration:
+          testprovider:
+            client-id: Test_Client            
+            client-secret: 01010101-0101-0101-0101-010101010101
+            scope: 
+            authorization-grant-type: client_credentials
